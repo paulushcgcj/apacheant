@@ -14,9 +14,9 @@ The Apache Ant project is part of the Apache Software Foundation.
 
 The content of this package may vary from version to version:
 
-| Tag | Open JDK | Ant | Git |
-| --- | -------- | --- |
-| 1.9.8 | OpenJDK7 1.7.0_121 | 1.9.8 | 2.11.3 |
+| Tag    | Open JDK           | Ant   | Git    |
+| ------ | ------------------ | ----- | ------ |
+| 1.9.8  | OpenJDK7 1.7.0_121 | 1.9.8 | 2.11.3 |
 | jdk7_2 | OpenJDK7 1.7.0_121 | 1.9.8 | 2.11.3 |
 
 # The Alpine Background
