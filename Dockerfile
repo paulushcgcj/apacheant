@@ -13,6 +13,8 @@ RUN rm -f /opt/ant/apache-ant-1.9.8-bin.tar.gz
 RUN apk --update add openjdk7
 #Install GIT
 RUN apk --update add git
+#Install Curl
+RUN apk --update add curl
 #Setting Ant Home
 ENV ANT_HOME=/opt/ant/apache-ant-1.9.8
 #Setting Ant Params
