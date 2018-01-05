@@ -9,6 +9,8 @@ RUN wget http://archive.apache.org/dist/ant/binaries/apache-ant-1.9.8-bin.tar.gz
 RUN tar -xvzf /opt/ant/apache-ant-1.9.8-bin.tar.gz -C /opt/ant/
 # Remove tar file
 RUN rm -f /opt/ant/apache-ant-1.9.8-bin.tar.gz
+#Drop Sonarqube lib
+RUN wget http://downloads.sonarsource.com/plugins/org/codehaus/sonar-plugins/sonar-ant-task/2.3/sonar-ant-task-2.3.jar -P /opt/ant/apache-ant-1.9.8/lib/
 #Install JDK 1.7
 RUN apk --update add openjdk7
 #Install GIT
